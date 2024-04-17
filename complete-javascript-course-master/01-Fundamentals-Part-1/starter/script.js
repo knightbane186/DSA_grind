@@ -20,3 +20,15 @@ console.log(country);
 console.log(continent);
 console.log(population);
 
+
+//variable name conventions 
+
+let isIsland = false;
+let language;
+
+console.log(isIsland);
+
+let JavascriptIsFun = true;
+console.log(JavascriptIsFun);
+
+console.log(typeOf true);
