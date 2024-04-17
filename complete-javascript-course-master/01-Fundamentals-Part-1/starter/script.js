@@ -66,3 +66,11 @@ console.log(x);
 console.log(ageJonas > ageSarah);
 // >,<, >=, <=
 
+// operator procedence:
+
+//String, template literals 
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+
+const jonas = "I'm " + firstName + ',a'
