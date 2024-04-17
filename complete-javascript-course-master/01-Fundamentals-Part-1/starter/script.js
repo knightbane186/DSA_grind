@@ -113,3 +113,11 @@ if (isHigherBMI) {
   // console.log("John's BMI is higher than Mark's !");
   console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
 }
+
+
+//Type conversion and coercion:
+
+
+const inputYear = '1991';
+//so the way to convert this to a number is 
+console.log(Number(inputYear), inputYear);
