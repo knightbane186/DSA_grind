@@ -74,3 +74,7 @@ const job = 'teacher';
 const birthYear = 1991;
 
 const jonas = "I'm " + firstName + ',a'
+
+// template literals 
+
+const jonasNew = `Im the new ${firstName}`
