@@ -78,3 +78,5 @@ const jonas = "I'm " + firstName + ',a'
 // template literals 
 
 const jonasNew = `Im the new ${firstName}`
+
+console.log(`String with `)
