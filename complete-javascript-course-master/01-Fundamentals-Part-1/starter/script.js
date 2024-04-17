@@ -31,4 +31,14 @@ console.log(isIsland);
 let JavascriptIsFun = true;
 console.log(JavascriptIsFun);
 
+// okay this typeOf is a new thing; 
 console.log(typeOf true);
+console.log(typeOf JavascriptIsFun);
+console.log(typeOf 23);
+console.log(typeOf 'Jonas')
+
+
+// not using the let or const keyword is still possible
+lastName = 'Lopes';
+console.log(lastName);
+
