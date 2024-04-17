@@ -42,3 +42,27 @@ console.log(typeOf 'Jonas')
 lastName = 'Lopes';
 console.log(lastName);
 
+//operators:
+const ageJonas = 2037-1991
+console.log(age)
+
+
+
+//type Operator
++
+typeof
+;
+//assignment operators
+let x = 10 + 5;
+x += 10;
+x *= 4;
+x++;
+x--;
+x--;
+
+console.log(x);
+
+//comparison operators
+console.log(ageJonas > ageSarah);
+// >,<, >=, <=
+
