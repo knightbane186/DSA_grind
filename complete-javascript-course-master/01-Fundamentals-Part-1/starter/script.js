@@ -120,4 +120,19 @@ if (isHigherBMI) {
 
 const inputYear = '1991';
 //so the way to convert this to a number is 
+// always start with a capital alphabet to begin with
 console.log(Number(inputYear), inputYear);
+
+// truthy and falsy values 
+
+const money = 0;
+if(money){
+    console.log("Dont spend the money");
+}else{
+    console.log("Do spend the money");
+}
+
+const age = 18;
+if(age === 18) console.log(`you just became an adult`)
+
+const prompt("whats your favourite numbe? ");
