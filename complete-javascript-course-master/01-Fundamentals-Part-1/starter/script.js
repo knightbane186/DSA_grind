@@ -80,3 +80,16 @@ const jonas = "I'm " + firstName + ',a'
 const jonasNew = `Im the new ${firstName}`
 
 console.log(`String with `)
+
+// if and else statment:
+const age = 19;
+const isOldEnough  = age >= 18;
+
+const age = 15;
+
+if(age >= 18){
+    console.log(`what up Geeeeee`)
+}else{
+const yearsLeft = 18 - age;
+console.log(`why are you doing that ${yearsLeft} motherfucker`);
+}
