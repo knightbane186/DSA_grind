@@ -183,3 +183,9 @@ const age = 23;
 age>= 18 ? console.log("I like to drink the wine"): console.log("I like to drink water")
 
 
+
+const bill = 275;
+bill>= 50...300 ? console.log((bill/15)/100) : console.log((bill/20)/100);
+
+
+
