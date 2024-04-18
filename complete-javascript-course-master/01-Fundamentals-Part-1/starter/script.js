@@ -138,3 +138,20 @@ if(age === 18) console.log(`you just became an adult`)
 const prompt("whats your favourite numbe? ");
 // boolean logic:
 
+const hasDriversLicence = true;
+const hasGoodVision = true;
+// this is and operator
+console.log(hasDriversLicence && hasGoodVision);
+//this is OR operator 
+console.log(hasDriversLicence || hasGoodVision);
+
+console.log(!hasDriversLicence);
+
+const isTired = false;
+console.log(hasDriversLicence && hasGoodVision && isTired);
+
+if(hasDriversLicence && hasGoodVision && !isTired){
+    console.log(`is able top drive`);
+}else{
+    console.log(`Someone else should drive...`);
+}
