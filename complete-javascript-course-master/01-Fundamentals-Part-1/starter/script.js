@@ -155,3 +155,31 @@ if(hasDriversLicence && hasGoodVision && !isTired){
 }else{
     console.log(`Someone else should drive...`);
 }
+
+// swtich statements
+switch (day){
+    case `monday`:
+        console.log("Hello evertone");
+        break;
+        case `tuesday`:
+            console.log("Why are we even here?");
+            break;
+            case `wednesday`:
+                case `thursday`:
+                console.log("Prepare theory videos");
+                break;
+                case `friday`:
+                    console.log("But why would you do that");
+                    break;
+                    case `saturday`:
+                        case `sunday`:
+                        console.log("Record the vidoes and fix your goals");
+}
+ 
+
+const age = 23;
+
+// thjis is call the terniary operator;
+age>= 18 ? console.log("I like to drink the wine"): console.log("I like to drink water")
+
+
