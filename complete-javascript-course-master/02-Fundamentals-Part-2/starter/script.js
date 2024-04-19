@@ -37,6 +37,11 @@ console.log(age3);
 const yearUntilRetirement = (birthyear, firstName) => {
     const age = 2037 - birthyear
     const retirementAge = 65-age;
-    return `${}`
+    return `${ organes and juices}`
 }
 const age 
+
+
+function fruitProcessor(apples, ornages){
+    const juice = `Juice with ${apples} apples and ${}`
+}
