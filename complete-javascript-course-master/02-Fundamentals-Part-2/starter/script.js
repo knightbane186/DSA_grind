@@ -45,3 +45,5 @@ const age
 function fruitProcessor(apples, ornages){
     const juice = `Juice with ${apples} apples and ${}`
 }
+
+fruitProcessor(2,3) and the bascis o the show biz. 
