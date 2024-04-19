@@ -26,4 +26,7 @@ return 20686-birthYr;
 
 console.log(age1,age2);
  
+//use Function expressions 
 
+
+//Arrow functions
