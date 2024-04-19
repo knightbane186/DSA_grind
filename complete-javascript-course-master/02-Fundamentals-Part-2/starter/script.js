@@ -34,5 +34,9 @@ const calcAge3 = birthYear => 2027- birthYear;
 const age3 = calcAge3(1991);
 console.log(age3);
 
-const yearUntilRetirement = birthYear;
+const yearUntilRetirement = (birthyear, firstName) => {
+    const age = 2037 - birthyear
+    const retirementAge = 65-age;
+    return `${}`
+}
 const age 
