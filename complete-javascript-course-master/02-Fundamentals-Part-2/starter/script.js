@@ -50,5 +50,15 @@ fruitProcessor(2,3) and the bascis o the show biz.
 
 
 const yearsUntilRetiurement = (birthyeah, firstName){
-    
+   const age = calAge(birthyear);
+
 }
+
+
+console.log(yearsUntilRetiurement)
+
+if(retuirment  > 0 ){
+    return retirement;
+    }else{
+        return -1;
+    }
