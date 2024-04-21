@@ -90,3 +90,44 @@ checkWinner(scoreDolphins, scoreKoalas);
 //using the push methods here 
 const friends = ['Michael', 'Steven', 'Peter'];
 friends.push('Jay')
+
+
+// add elements
+// adding elements to end opfthe array:
+array.push()
+
+//addign element to the start of the array;
+array.unshift()
+
+
+//removing elements from the end of the array
+array.pop()
+
+//to find which index of element is located:
+console.log(array.indexOf)
+
+console.log(array.includes('Steven '))
+// Define the function
+function calcTip(bill) {
+  if (bill >= 50 && bill <= 300) {
+    return bill * 0.15;
+  } else {
+    return bill * 0.20;
+  }
+}
+
+// Test the function
+console.log(calcTip(100)); // Output: 15
+
+// Create the bills array
+const bills = [125, 555, 44];
+
+// Create the tips array
+const tips = bills.map(calcTip);
+
+// Create the totals array
+const totals = bills.map((bill, index) => bill + tips[index]);
+
+// Log the results
+console.log(tips); // Output: [ 18.75, 111, 8.8 ]
+console.log(totals); // Output: [ 143.75, 666, 52.8 ]
