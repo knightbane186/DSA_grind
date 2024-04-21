@@ -84,3 +84,9 @@ function checkWinner(avgDolphins, avgKoalas) {
 }
 
 checkWinner(scoreDolphins, scoreKoalas);
+
+
+
+//using the push methods here 
+const friends = ['Michael', 'Steven', 'Peter'];
+friends.push('Jay')
