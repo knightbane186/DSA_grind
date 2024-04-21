@@ -47,3 +47,8 @@ function fruitProcessor(apples, ornages){
 }
 
 fruitProcessor(2,3) and the bascis o the show biz. 
+
+
+const yearsUntilRetiurement = (birthyeah, firstName){
+    
+}
