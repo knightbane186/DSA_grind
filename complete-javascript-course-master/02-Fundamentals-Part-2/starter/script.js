@@ -147,3 +147,14 @@ for(let rep = 1; rep  <= 10; rep++){
   console.log(`Lifting weight repetion ${rep}`)
 }
 
+const jonasArray = [
+  'Jonas',
+  'Lopes',
+  2037-1991,
+  'teacher',
+  ['Michael','Peter','Steven']
+];
+
+for (let i =0; i < 5;i++){
+  console.log(jonas[0]);
+}
