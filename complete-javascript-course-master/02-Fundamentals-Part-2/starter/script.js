@@ -131,3 +131,19 @@ const totals = bills.map((bill, index) => bill + tips[index]);
 // Log the results
 console.log(tips); // Output: [ 18.75, 111, 8.8 ]
 console.log(totals); // Output: [ 143.75, 666, 52.8 ]
+
+// Objects methods
+
+const mark = {
+  fullName: 'mnark miller',
+  mass:78,
+  height: 1.69,
+  calcBMI: function() {
+
+  }
+}
+
+for(let rep = 1; rep  <= 10; rep++){
+  console.log(`Lifting weight repetion ${rep}`)
+}
+
