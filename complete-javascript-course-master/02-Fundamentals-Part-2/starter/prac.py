@@ -26,3 +26,5 @@ def create_staircase(nums):
                 return False
             
             return subsets
+        
+        
