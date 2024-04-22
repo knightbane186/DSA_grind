@@ -155,6 +155,14 @@ const jonasArray = [
   ['Michael','Peter','Steven']
 ];
 
-for (let i =0; i < 5;i++){
-  console.log(jonas[0]);
+const types = [];
+
+
+for (let i =0; i < jonasArray.length;i++){
+  console.log(jonas[i], typeOf jonas[i]);
 }
+
+console.log(types);
+ 
+
+//continue and break
