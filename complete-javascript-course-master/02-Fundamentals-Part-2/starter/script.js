@@ -216,3 +216,32 @@ for(let i = 0; i >= 10; i++){
 while(something === something){
 
 }
+
+
+
+while(rep <= 10){
+  console.log(`Lifting weigts repetition ${rep}`);
+  rep++
+ }
+
+ let dice = Math.trunc(Math.random() * 6)+1;
+
+ while(dice !==6){
+  console.log(`Yo rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6)+1;
+  if(dice === 6) console.log(`Loop is about to end...`);
+ }
+
+ const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+}
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+
+const tips = [];
+const totals = [];
+
+for (let i = 0; i < bills.length; i++) {
+  const tip = calcTip(bills[i]);
+  tips.push(tip);
+  totals.push(bills[i] + tip);
