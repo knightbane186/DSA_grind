@@ -244,4 +244,23 @@ const totals = [];
 for (let i = 0; i < bills.length; i++) {
   const tip = calcTip(bills[i]);
   tips.push(tip);
-  totals.push(bills[i] + tip);
+  totals.push(bills[i] + tip);mmi 
+
+
+
+const jonasArray = [
+  'Jonas',
+  'Lopes',
+  2037-1991,
+  'teacher',
+  ['Michael','Peter','Steven']
+];
+
+const types = [];
+
+
+for (let i =0; i < jonasArray.length;i++){
+  console.log(jonas[i], typeOf jonas[i]);
+}
+
+console.log(types);
