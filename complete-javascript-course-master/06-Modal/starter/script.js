@@ -7,6 +7,8 @@ const btnsOpenModal = document.querySelectorAll('.show-modal');
 console.log(btnsOpenModal);
 
 for (let i = 0; i < btnsOpenModal.length; i++) { // Removed the semicolon at the end of the for loop
+
+    //this is when to pop open the modal
     btnsOpenModal[i].addEventListener('click', function () {
         console.log('Button clicked');
         modal.classList.remove('hidden');
@@ -14,10 +16,20 @@ for (let i = 0; i < btnsOpenModal.length; i++) { // Removed the semicolon at the
     });
 
 
-   btnCloseModal.addEventListener('click',  function(){
-    modal.classList.add('hidden');
-    overlay.classList.add('hidden');
-   }) 
+    const closeModal = function(){
+        modal.classList.add('hidden');
+        overlay.classList.add('hidden');
+       }
+
+//this is when we have to close
+   btnCloseModal.addEventListener('click',  );
+
+
+
+
+
+
+
 }
 
 
