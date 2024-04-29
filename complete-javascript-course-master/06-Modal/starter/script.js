@@ -26,6 +26,17 @@ for (let i = 0; i < btnsOpenModal.length; i++) { // Removed the semicolon at the
    btnCloseModal.addEventListener('click', closeModal);
    overlay.addEventListener('click',closeModal);
 
+   //global events 
+
+   document.addEventListener('keydown', function(e){
+    
+    if(e.key === 'Escape'){
+        if(!modal.classList.contains('hidden')){
+            closeModal();
+        }
+    }
+   })
+
 
 
 
