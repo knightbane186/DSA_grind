@@ -30,12 +30,11 @@ for (let i = 0; i < btnsOpenModal.length; i++) { // Removed the semicolon at the
 
    document.addEventListener('keydown', function(e){
     
-    if(e.key === 'Escape'){
-        if(!modal.classList.contains('hidden')){
+    if(e.key === 'Escape' && !modal.classList.contains('hidden')){
             closeModal();
         }
     }
-   })
+   });
 
 
 
