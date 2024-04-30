@@ -52,5 +52,22 @@ player0EL.classList.toggle('player--active');
 player1EL.classList.toggle('player--active');
 }
 })
+btnHold.addEventListener('click', function(){
+    //1.Add current score tyo active players scpore 
+scores[activePlayer] += 
+    //2. check if players scroe is >= 100
+    //Finish the game 
 
+})
+
+
+btnNew.addEventListener('click', function(){
+
+});
+
+
+function callAge(birthYear){
+    const age = 2037 - birthYear;
+    return age;
+}
 
