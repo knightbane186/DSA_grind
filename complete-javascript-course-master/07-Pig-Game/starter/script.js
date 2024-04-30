@@ -1,5 +1,8 @@
 'use strict';
 
+
+const player0EL = document.querySelector('.player--0');
+const player1EL = document.querySelector('.player--1');
 //Selecting elements
 const score0El = document.querySelector('#score--0');
 //now whioe using element by id we dont need to use the # 
@@ -36,14 +39,17 @@ diceEL.src = `dice-${dice}.png`;
 if(dice !== 1){
 //Add dice to the current score
  currentScore += dice;
-document.getElementById(`current--${activePlayer}`).textContent = currentScore;
- current0El.textContent = currentScore;
+document.getElementById
+(`current--${activePlayer}`
+).textContent = currentScore;
 }else{
 
     //switch to the next player
 activePlayer = activePlayer === 0 ? 1 : 0;
 currentScore = 0;
-
+activePlayer = activePlayer === 0 ? 1 : 0;
+player0EL.classList.toggle('player--active');
+player1EL.classList.toggle('player--active');
 }
 })
 
