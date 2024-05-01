@@ -105,15 +105,48 @@
 
 
 
-var firstName = 'Matilda';
-const jonas = {
-    firstName:'Jonas',
-    year: 1991,
-    calAge: function() {
-        console.log(this);
-        console.log(2037 - this.year);
-    },
-    greet: () => console.log(`Hey ${this.firstName}`),
+// var firstName = 'Matilda';
+// const jonas = {
+//     firstName:'Jonas',
+//     year: 1991,
+//     calAge: function() {
+//         console.log(this);
+//         console.log(2037 - this.year);
+//     },
+//      
+//      const isMelle = function() {
+// console.log(self);
+// console.log(self.year >= 1981 && self.year <= 1996);
+//      }; isMelle();
+//     greet: () => console.log(`Hey ${this.firstName}`),
+// };
+
+// jonas.greet(); 
+
+//arguments keyword
+
+// const addExpr = function(a, b){
+//     console.log(arguments);
+//     return a + b;
+// };
+
+// addExpr(2,5)
+
+//primitives
+
+let age = 30;
+let oldAge = age;
+age = 31;
+console.log(age);
+console.age(oldAge);
+
+const me ={
+    name: 'Jonas',
+    age: 30,
+    
 };
 
-jonas.greet(); 
+const friend = me;
+friend.age = 27;
+console.log('Friend', friend);
+console.log('Me');
