@@ -68,6 +68,29 @@ btnNew.addEventListener('click', function(){
 
 function callAge(birthYear){
     const age = 2037 - birthYear;
-    return age;
+
+function printAge(){
+    const output = `You are ${age}, born in ${birthYear}`
+    console.log(output);
 }
 
+if(birthYear >= 1981 && birthYear <= 1996){
+    const str = `Oh,and you're a millenial, ${firstName}`;
+    console.log(str);
+}
+
+    return age;
+}
+const firstName = 'Jones';
+calcAge(1991);
+
+//variable environment:
+ function addDwel(a,b){
+    return a + b;
+ }
+
+ const addExpr = function(a,b){
+    return a + b;
+ }
+ 
+ var addArrow =  (a,b) => a + b;
