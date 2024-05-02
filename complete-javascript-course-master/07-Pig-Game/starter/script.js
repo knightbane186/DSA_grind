@@ -162,3 +162,21 @@ const jessica = {
     lastName: 'Williams',
     age: 27,
 };
+
+const marriedJessica = jessica;
+marriedJessica.lastName = 'Davis';
+console.log('Before Marriage ', jessica);
+console.log('After Marriage', marriedJessica);
+
+
+const jessica2 = {
+    firstName: 'Jessica',
+    lastName: 'Williams',
+    age: 27,
+    family: ['Alice','Bob'],
+};
+//Object Assign 
+const jessicaCopy = Object.assign({}, jessica2);
+jessicaCopy.lastName = 'Davis';
+console.log('Before Marriage ', jessica2);
+console.log('After Marriage', jessicaCopy);
