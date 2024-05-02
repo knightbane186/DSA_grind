@@ -138,7 +138,7 @@ let age = 30;
 let oldAge = age;
 age = 31;
 console.log(age);
-console.age(oldAge);
+console.log(oldAge);
 
 const me ={
     name: 'Jonas',
@@ -149,4 +149,16 @@ const me ={
 const friend = me;
 friend.age = 27;
 console.log('Friend', friend);
-console.log('Me');
+console.log('Me',me);
+
+
+let lastName = 'Williams';
+let oldLastName = lastName;
+lastName = 'Davis';
+console.log(lastName,oldLastName);
+
+const jessica = {
+    firstName: 'Jessica',
+    lastName: 'Williams',
+    age: 27,
+};
