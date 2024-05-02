@@ -37,8 +37,34 @@ const restaurant = {
 //so this is creating a object 
 // const restaurant = {name,openingHours, categories};
 
-// and this is destructuring an already exisiting object nad pullin goput varriables from it
+//so now i am assigning new names for the variables 
 const {name,openingHours, categories} = restaurant;
+const {
+name : restaurantName,
+openingHours: hours,
+categories: tags,
+} = restaurant;
+console.log(restaurantName, hours, tags);
+
+const{menu = [], starterMenu: starters = []}= restaurant;
+console.log(menu, starters);
+//mutating variables 
+
+let a = 111;
+let b = 999;
+const obj = {a: 23, b:7, c:14};
+ ({a,b} = obj);
+ console.log(a,b);
+
+ //Nested Objects
+ const {
+  fri: {open, close},
+ } = openingHours;
+ console.log(open,close);
+
+
+// and this is destructuring an already exisiting object nad pullin goput varriables from it
+
 
 //destructuring arrays
 
@@ -62,6 +88,50 @@ const {name,openingHours, categories} = restaurant;
 // const [starter, mainCourse] = restaurant.order(2,0);
 // console.log(starter,mainCourse);
 
+restaurant.orderDelivery({
+  time: '22.30',
+  address: 'Via del sole, 21',
+  mainIndex: 2,
+  starterIndex: 2,
+});
 
+//lets try destructuring this now: 
+
+// orderDelivery: function({ starterIndex, mainIndex, time, address
+// }){
+//   co
+// }
+
+const arr = [7,8,9];
+const badNewArr = [1,2, arr[0], arr[1],arr[2]];
+console.log(badNewArr);
+
+//spread operator
+const newArr = [1,2,...arr];
+
+//WE CAN UPEND AN ELEMENT USING THE SPREAD OPERATOR AND ADD ELEMENTS TO THE EXISTING BLOCK
+const newMenu = [...restaurant.mainMenu,'Gnocchi'];
+
+//Joining two arrays;
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+console.log(menu);
+
+
+/// THIS IS SPREAD OPERATOR
+const artr = [1,2,...]
+
+// THIS IS REST OPERATOR;
+const [pizza, risotto, ...otherfood] = [
+  ...restaurant.mainMenu,
+  ...restaurant.startMenu,
+];
+
+console.log(pizza, risotto, otherFood);
+
+
+const guests1 = restaurant.numbeGeust ? restaurant.numbgeust : 10;
+console.log(guests1);
+
+const guests2 = restaurant.numbeGeust || 10;
 
 
