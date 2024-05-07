@@ -42,3 +42,20 @@ const newPassport = function(person){
     person.passport =Math.trunc(Math.random() * 10000);
     
 }
+
+
+// First class vs highher order function 
+// // Functions are just another type of objects in JS:
+// // Frist class citizens
+// //Functions are another "type" of object
+
+//  const add = (a,b) => a +b;
+  
+
+const oneWord = function(str){
+    return str.replace(/ /g, '').toLowerCase();
+}
+
+const upperFirstWord = function(str){
+
+};
