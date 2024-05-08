@@ -59,3 +59,11 @@ const oneWord = function(str){
 const upperFirstWord = function(str){
 
 };
+
+const oneWord = function(str){
+    return str.replace(/ /g, '').toLowerCase();
+}
+
+const upperFirstWord = function(str){
+
+};
