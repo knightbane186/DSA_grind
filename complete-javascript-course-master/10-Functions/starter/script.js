@@ -41,3 +41,45 @@ const transformer = function(str, fn) {
 
 // Example usage
 transformer('Javascript is the best', upperFirstWord);
+
+const high5 = function()
+{
+    console.log('🚀');
+}
+
+document.addEventListener('click',high5);
+['Jonas','Martha','Adam'].forEach(high5);
+
+
+const greet = function(greeting){
+    return function(name){
+        console.log(`${greeting} ${name}`);
+    }
+}
+
+const greeterHey = greet('Hey');
+greeterHey('Jonas');
+greeterHey('Steven');
+
+
+greet('Hello')('Jonas');
+
+
+
+const greetOne = () => {
+
+}
+
+const greetArr = greeting => name => console.log(`${greeting} ${name}`);
+
+greetArr('Hi')('Jonas');
+
+
+
+
+
+
+
+
+
+
