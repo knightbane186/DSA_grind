@@ -178,6 +178,12 @@ registeredNewAnswer(){
 // poll.registerNewAnswer();
 
 
+registeredNewAnswer(){
+    const answer = Number( prompt(`${this.question}\n${this.options.join('\n')}\n(Write option number)`));
+    console.log(answer);
 
+    typeOf answer === 'number' && answer < this.answers.length && this.answers[answer]++;
+},
+};
 
  
