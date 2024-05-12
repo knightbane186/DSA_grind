@@ -169,9 +169,11 @@ const poll = {
     answers: new Array(4).fill(0),
 registeredNewAnswer(){
     const answer = Number( prompt(`${this.question}\n${this.options.join('\n')}\n(Write option number)`));
+    console.log(answer);
 },
-
 };
+
+poll.registeredNewAnswer();
 
 
 
