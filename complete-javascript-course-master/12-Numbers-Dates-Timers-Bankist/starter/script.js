@@ -271,3 +271,18 @@ const user = 'Steven Shawn Williams';
 const username = user.toLowerCase().split().map( name => name[0]).join('');
 
 console.log(username);
+
+const withdrawal = movements.filter(move => mov < 0);
+
+const balance = movements.reduce(function(acc,cur,i,arr){
+console.log(`Iteration ${i}: ${acc}`);
+return acc + cur;
+},0);
+console.log(balance); 
+
+//the FIND method:
+
+const firstWithDrawal = movements.find(mov => mov < 0);
+console.log(movements);
+console.log(firstWithDrawal);
+
