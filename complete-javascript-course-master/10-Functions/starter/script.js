@@ -187,12 +187,24 @@ const runOnce = function(){
 runOnce();
 
 //But imagine if we want to call the function right away;
-
+//IIFE
 //Now this will get called;
 (function(){
     console.log('This will never run again');
 })();
 
+//this is how we invoke a arrow function;
+(() => console.log('This will also never run again'))();
+
+//we want to use something outside the scope than we need to push out the VAR keyword
+
+{
+const isPrivate = 23;
+var notPrivate = 46;
+}
+
+//console.log(isPrivate)
+console.log(notPrivate);
 
 
 
