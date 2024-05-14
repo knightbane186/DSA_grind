@@ -4,13 +4,13 @@
 /////////////////////////////////////////////////
 // BANKIST APP
 
-// Data
-// const account1 = {
-//   owner: 'Jonas Schmedtmann',
-//   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
-//   interestRate: 1.2, // %
-//   pin: 1111,
-// };
+ Data
+const account1 = {
+   owner: 'Jonas Schmedtmann',
+  movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
+  interestRate: 1.2, // %
+   pin: 1111,
+ };
 
 // const account2 = {
 //   owner: 'Jessica Davis',
@@ -71,23 +71,8 @@
 //   ['GBP', 'Pound sterling'],
 // ]);
 
-// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 // /////////////////////////////////////////////////
 
-// let arr = ['a','b','c','d','e','f'];
-
-// console.log(arr.slice(2));
-// console.log(arr.slice(2,4));
-// //below bit consoles the entire array;
-// console.log([...arr]);
-
-
-// const arr = [23,11,64];
-
-// //at method
-// console.log(arr[0]);
-// console.log(arr.at(0));
-
-
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+let arr = []
