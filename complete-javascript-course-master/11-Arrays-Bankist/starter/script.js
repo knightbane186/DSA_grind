@@ -82,7 +82,10 @@ console.log(arr.slice(2,4));
 console.log(arr.slice(-1));
 console.log(arr.slice(2,-1));
 
-
+//SLICE = Slice will not mutate but will give an output of what's requested. 
+console.log(arr.slice(2,4));
+console.log(arr.slice(-1));
+console.log(arr.slice(2,-1));
 //SPLICE = Splice will mumtate the whole original array once it is passed. 
 console.log(arr.splice(2,1));
 Console.log(arr);
