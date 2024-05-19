@@ -129,3 +129,40 @@ Console.log(arr);
   arr = ['a','b','c','d','e'];
   
   const arr2 = []
+
+
+  console.log(arr.slice(-1));
+console.log(arr.slice(2,-1));
+
+//SLICE = Slice will not mutate but will give an output of what's requested. 
+console.log(arr.slice(2,4));
+console.log(arr.slice(-1));
+console.log(arr.slice(2,-1));
+//SPLICE = Splice will mumtate the whole original array once it is passed. 
+console.log(arr.splice(2,1));
+Console.log(arr);
+
+
+
+  const arr = [23,11,64];
+  console.log(arr[0]);
+  console.log(arr.at(0));
+
+
+  console.log(0)
+
+  console.log('Jonas'.at(-1));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
