@@ -153,6 +153,38 @@ Console.log(arr);
 
   console.log('Jonas'.at(-1));
 
+  const arr = [[1,2,,3], [4,5,6],7,8];
+  console.log(arr.flat());
+
+
+//SORTING Method
+const owners = ['Jonas','Zach','Adam','Martha'];
+console.log(owners.sort());
+console.log(owners);
+
+//sorting method works as a strings.
+
+
+
+//Array nmethos practice 
+
+const bankDepositSum = accounts.flatMap(acc => acc.movements).filter(move => mov > 0).reduce((sum,cur)=> sum + cur,0);
+console.log(bankDepositSum);
+
+
+
+
+const numDeposits1000 = accounts.flatMap
+
+
+
+
+
+
+
+
+
+
 
 
 
