@@ -36,3 +36,11 @@ Message.style.height = Number.parseFloat(getComputedStyle(message).height,
 document.documentElement.style.setProperty
 ('--color-primary','orangered');
 
+//Data attritubtes
+data-version-number = '3.0'
+console.log(0)
+
+//Classes
+
+logo.classList.add('');
+logo.classList.remove('');
