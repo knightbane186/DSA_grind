@@ -42,5 +42,12 @@ console.log(0)
 
 //Classes
 
-logo.classList.add('');
-logo.classList.remove('');
+logo.classList.add('c');
+logo.classList.remove('c');
+
+const btnScrollTo = 
+
+Event propogation
+
+console.log(h1.querySelectorAll('.highlight'));
+console.log(h1.chi)
