@@ -51,3 +51,12 @@ Event propogation
 
 console.log(h1.querySelectorAll('.highlight'));
 console.log(h1.chi)
+logo.classList.add('c');
+logo.classList.remove('c');
+
+const btnScrollTo = 
+
+Event propogation
+
+console.log(h1.querySelectorAll('.highlight'));
+console.log(h1.chi)
