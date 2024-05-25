@@ -55,8 +55,15 @@ logo.classList.add('c');
 logo.classList.remove('c');
 
 const btnScrollTo = 
-
+ 
 Event propogation
 
 console.log(h1.querySelectorAll('.highlight'));
-console.log(h1.chi)
+console.log(h1.chi)10) + 30 + 'px';
+
+document.documentElement.style.setProperty
+('--color-primary','orangered');
+
+//Data attritubtes
+data-version-number = '3.0'
+console.log(0)
