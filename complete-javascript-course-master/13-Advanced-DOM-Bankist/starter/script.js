@@ -77,3 +77,24 @@ document.documentElement.style.setProperty
 //Data attritubtes
 data-version-number = '3.0'
 console.log(0)
+Event propogation
+
+console.log(h1.querySelectorAll('.highlight'));
+console.log(h1.chi)10) + 30 + 'px';
+
+document.documentElement.style.setProperty
+('--color-primary','orangered');
+
+//Data attritubtes
+data-version-number = '3.0'
+console.log(0)
+
+console.log(h1.querySelectorAll('.highlight'));
+console.log(h1.chi)10) + 30 + 'px';
+
+document.documentElement.style.setProperty
+('--color-primary','orangered');
+
+//Data attritubtes
+data-version-number = '3.0'
+console.log(0)
