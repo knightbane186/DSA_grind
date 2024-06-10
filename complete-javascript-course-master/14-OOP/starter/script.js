@@ -33,3 +33,27 @@ console.log(jonas.__proto__);
 Person.prototype.calcAge = function(){
     console.log(2037 = this.birthYear)
 }
+ 
+
+const Car = function(make,speed){
+
+}
+
+//1.Cl;asses are not hoisted
+//2.class is first class citizxen
+//3.Classes are executed in strict mode
+// practising GET here;
+
+const account = {
+    owner:'Jonas',
+    movements:[200,530,120,300],
+
+    get latest(){
+return this.movements.slice(-1).pop();
+        }
+,
+
+};
+console.log(account.latest);
+
+
