@@ -96,17 +96,18 @@ const Person = function (firstName, birthYear){
     this.birthYear = birthYear;
 
 };
-
 Person.prototype.calAge = function(){
     console.log(2037- this.birthYear);
 };
-
-
-
 const Student = function(firstName, birthYear,course){
 Person.call(this,firstName,birthYear);
     this.course = course;
 }
+
+//this means the student object is truly pulling from Person object 
+Student.prototype = Object.create(Person.prototype)
+
+
 
 //here we are just adding a new method tot he student opbjecy
 
@@ -115,3 +116,12 @@ Student.prototype.introduction = function(){
 }
 
 const mike = new Student('Mke',2020,'Computer Science');
+
+
+//in ES6 classes, if a class wants to adopt from a parent class we only have to type this extends
+
+class Student extends PersonCL {
+    constructor(fullName,birthYear,course){
+        
+    }
+}
