@@ -122,6 +122,10 @@ const mike = new Student('Mke',2020,'Computer Science');
 
 class Student extends PersonCL {
     constructor(fullName,birthYear,course){
-        
+        //super in a class comes from the parent class 
+super(fullName,birthYear)
     }
+
 }
+// encapsulation for the basis
+
