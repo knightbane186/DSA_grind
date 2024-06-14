@@ -135,9 +135,62 @@ class Account {
         this.owner = owner;
         this.currency = currency;
         this.pin = pin;
+        //protected
+        this._movements = [];
+        this.locale = navigator.language;
+
+        console.log(`Thanks for opening an account, ${owner}`);
+
+        //Public interface
+        deposit(val) {
+            this._movements.push(val);
+        }
+
+        withdraw(val){
+            this.deposit(-val);
+        }
+     
     }
 }
 
 const acc1 = new Account('Jonas','EUR',1111);
 
 
+
+//Public fields
+
+
+//Private fields
+//SO to add a private fuielkd we just need to add a # in front og the variable.
+class MyCounter{
+    #count = 30;
+}
+
+//Public methods 
+
+
+//Private methods
+
+
+// this is cool exaomple of the private method:
+
+class Person {
+    #age; // Private field
+
+    constructor(name, age) {
+        this.name = name;
+        this.#age = age;
+    }
+
+    #calculateBirthYear() { // Private method
+        return new Date().getFullYear() - this.#age;
+    }
+
+    getBirthYear() {
+        return this.#calculateBirthYear(); // Calling the private method within the class
+    }
+}
+
+const person = new Person('Alice', 30);
+console.log(person.getBirthYear()); // Accessing the result of the private method via a public method
+// console.log(person.#calculateBirthYear()); // SyntaxError: Private field '#calculateBirthYear' must be declared in an enclosing class
